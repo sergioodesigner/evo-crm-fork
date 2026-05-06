@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EvolutionAPI/evo-crm-community/releases/latest"><img src="https://img.shields.io/github/v/release/EvolutionAPI/evo-crm-community?include_prereleases&label=version&color=00ffa7" alt="Latest version" /></a>
+  <a href="https://github.com/evolution-foundation/evo-crm-community/releases/latest"><img src="https://img.shields.io/github/v/release/evolution-foundation/evo-crm-community?include_prereleases&label=version&color=00ffa7" alt="Latest version" /></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0" /></a>
   <a href="https://docs.evolutionfoundation.com.br"><img src="https://img.shields.io/badge/Docs-evolutionfoundation.com.br-00ffa7" alt="Documentation" /></a>
   <a href="https://evolutionfoundation.com.br/community"><img src="https://img.shields.io/badge/Community-Join%20us-white" alt="Community" /></a>
@@ -36,33 +36,33 @@ This repository is the **monorepo entrypoint**: it aggregates all community serv
 
 ## Current Version
 
-**`v1.0.0-rc2`** (latest) — see the [release notes](https://github.com/EvolutionAPI/evo-crm-community/releases/tag/v1.0.0-rc2) for highlights, security advisories and known issues. Previous: [`v1.0.0-rc1`](https://github.com/EvolutionAPI/evo-crm-community/releases/tag/v1.0.0-rc1).
+**`v1.0.0-rc2`** (latest) — see the [release notes](https://github.com/evolution-foundation/evo-crm-community/releases/tag/v1.0.0-rc2) for highlights, security advisories and known issues. Previous: [`v1.0.0-rc1`](https://github.com/evolution-foundation/evo-crm-community/releases/tag/v1.0.0-rc1).
 
 The umbrella tag pins each Community submodule at its corresponding `v1.0.0-rc2` tag. Cloning with `--recurse-submodules` at this tag reproduces the full stack as released:
 
 | Service | Git tag | Docker image | Release notes |
 |---|---|---|---|
-| [`evo-auth-service-community`](https://github.com/EvolutionAPI/evo-auth-service-community) | `v1.0.0-rc2` | `evoapicloud/evo-auth-service-community:1.0.0-rc2` | [link](https://github.com/EvolutionAPI/evo-auth-service-community/releases/tag/v1.0.0-rc2) |
-| [`evo-ai-crm-community`](https://github.com/EvolutionAPI/evo-ai-crm-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-crm-community:1.0.0-rc2` | [link](https://github.com/EvolutionAPI/evo-ai-crm-community/releases/tag/v1.0.0-rc2) |
-| [`evo-ai-frontend-community`](https://github.com/EvolutionAPI/evo-ai-frontend-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-frontend-community:1.0.0-rc2` | [link](https://github.com/EvolutionAPI/evo-ai-frontend-community/releases/tag/v1.0.0-rc2) |
-| [`evo-ai-processor-community`](https://github.com/EvolutionAPI/evo-ai-processor-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-processor-community:1.0.0-rc2` | [link](https://github.com/EvolutionAPI/evo-ai-processor-community/releases/tag/v1.0.0-rc2) |
-| [`evo-ai-core-service-community`](https://github.com/EvolutionAPI/evo-ai-core-service-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-core-service-community:1.0.0-rc2` | [link](https://github.com/EvolutionAPI/evo-ai-core-service-community/releases/tag/v1.0.0-rc2) |
-| [`evo-bot-runtime`](https://github.com/EvolutionAPI/evo-bot-runtime) | `v1.0.0-rc2` | `evoapicloud/evo-bot-runtime:1.0.0-rc2` | [link](https://github.com/EvolutionAPI/evo-bot-runtime/releases/tag/v1.0.0-rc2) |
+| [`evo-auth-service-community`](https://github.com/evolution-foundation/evo-auth-service-community) | `v1.0.0-rc2` | `evoapicloud/evo-auth-service-community:1.0.0-rc2` | [link](https://github.com/evolution-foundation/evo-auth-service-community/releases/tag/v1.0.0-rc2) |
+| [`evo-ai-crm-community`](https://github.com/evolution-foundation/evo-ai-crm-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-crm-community:1.0.0-rc2` | [link](https://github.com/evolution-foundation/evo-ai-crm-community/releases/tag/v1.0.0-rc2) |
+| [`evo-ai-frontend-community`](https://github.com/evolution-foundation/evo-ai-frontend-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-frontend-community:1.0.0-rc2` | [link](https://github.com/evolution-foundation/evo-ai-frontend-community/releases/tag/v1.0.0-rc2) |
+| [`evo-ai-processor-community`](https://github.com/evolution-foundation/evo-ai-processor-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-processor-community:1.0.0-rc2` | [link](https://github.com/evolution-foundation/evo-ai-processor-community/releases/tag/v1.0.0-rc2) |
+| [`evo-ai-core-service-community`](https://github.com/evolution-foundation/evo-ai-core-service-community) | `v1.0.0-rc2` | `evoapicloud/evo-ai-core-service-community:1.0.0-rc2` | [link](https://github.com/evolution-foundation/evo-ai-core-service-community/releases/tag/v1.0.0-rc2) |
+| [`evo-bot-runtime`](https://github.com/evolution-foundation/evo-bot-runtime) | `v1.0.0-rc2` | `evoapicloud/evo-bot-runtime:1.0.0-rc2` | [link](https://github.com/evolution-foundation/evo-bot-runtime/releases/tag/v1.0.0-rc2) |
 | `evo-crm-gateway` (built from this repo) | `v1.0.0-rc2` | `evoapicloud/evo-crm-gateway:1.0.0-rc2` | (see umbrella release) |
 
 The following projects are **part of the broader Evolution Foundation ecosystem** but follow independent versioning:
 
 | Service | Repository | Notes |
 |---|---|---|
-| [`evolution-api`](https://github.com/EvolutionAPI/evolution-api) | WhatsApp messaging API (Node.js) | Independent versioning |
-| [`evolution-go`](https://github.com/EvolutionAPI/evolution-go) | WhatsApp messaging API (Go) | Independent versioning |
-| [`evo-nexus`](https://github.com/EvolutionAPI/evo-nexus) | Multi-agent operating layer | Independent versioning |
+| [`evolution-api`](https://github.com/evolution-foundation/evolution-api) | WhatsApp messaging API (Node.js) | Independent versioning |
+| [`evolution-go`](https://github.com/evolution-foundation/evolution-go) | WhatsApp messaging API (Go) | Independent versioning |
+| [`evo-nexus`](https://github.com/evolution-foundation/evo-nexus) | Multi-agent operating layer | Independent versioning |
 
 > **Note on tag naming**: the **git tag** has the `v` prefix (`v1.0.0-rc2`) following standard Git convention. The **Docker tag** drops the `v` (`1.0.0-rc2`) following SemVer / Docker Hub convention. `latest` on Docker Hub always tracks the most recent published tag.
 
 ```bash
 # Source clone (pinned to the release):
-git clone --recurse-submodules --branch v1.0.0-rc2 git@github.com:EvolutionAPI/evo-crm-community.git
+git clone --recurse-submodules --branch v1.0.0-rc2 git@github.com:evolution-foundation/evo-crm-community.git
 
 # Or pull pre-built images (compose files use :latest by default):
 docker pull evoapicloud/evo-ai-crm-community:1.0.0-rc2
@@ -113,7 +113,7 @@ The following services are part of the Evolution Foundation ecosystem but are no
 ### 1. Clone with submodules
 
 ```bash
-git clone --recurse-submodules git@github.com:EvolutionAPI/evo-crm-community.git
+git clone --recurse-submodules git@github.com:evolution-foundation/evo-crm-community.git
 cd evo-crm-community
 ```
 
@@ -133,12 +133,12 @@ git submodule update --remote --merge
 
 Refer to each service's own README for environment configuration, setup and seed instructions:
 
-- [evo-auth-service-community](https://github.com/EvolutionAPI/evo-auth-service-community#readme)
-- [evo-ai-crm-community](https://github.com/EvolutionAPI/evo-ai-crm-community#readme)
-- [evo-ai-frontend-community](https://github.com/EvolutionAPI/evo-ai-frontend-community#readme)
-- [evo-ai-processor-community](https://github.com/EvolutionAPI/evo-ai-processor-community#readme)
-- [evo-ai-core-service-community](https://github.com/EvolutionAPI/evo-ai-core-service-community#readme)
-- [evo-bot-runtime](https://github.com/EvolutionAPI/evo-bot-runtime#readme)
+- [evo-auth-service-community](https://github.com/evolution-foundation/evo-auth-service-community#readme)
+- [evo-ai-crm-community](https://github.com/evolution-foundation/evo-ai-crm-community#readme)
+- [evo-ai-frontend-community](https://github.com/evolution-foundation/evo-ai-frontend-community#readme)
+- [evo-ai-processor-community](https://github.com/evolution-foundation/evo-ai-processor-community#readme)
+- [evo-ai-core-service-community](https://github.com/evolution-foundation/evo-ai-core-service-community#readme)
+- [evo-bot-runtime](https://github.com/evolution-foundation/evo-bot-runtime#readme)
 
 > **Note:** `evo-auth-service-community` must be seeded before `evo-ai-crm-community` — the CRM depends on the user created by the auth seed.
 
@@ -176,20 +176,20 @@ All inter-service communication uses Bearer token authentication. The token issu
 
 | Submodule | Repository |
 |---|---|
-| `evo-auth-service-community` | [EvolutionAPI/evo-auth-service-community](https://github.com/EvolutionAPI/evo-auth-service-community) |
-| `evo-ai-crm-community` | [EvolutionAPI/evo-ai-crm-community](https://github.com/EvolutionAPI/evo-ai-crm-community) |
-| `evo-ai-frontend-community` | [EvolutionAPI/evo-ai-frontend-community](https://github.com/EvolutionAPI/evo-ai-frontend-community) |
-| `evo-ai-processor-community` | [EvolutionAPI/evo-ai-processor-community](https://github.com/EvolutionAPI/evo-ai-processor-community) |
-| `evo-ai-core-service-community` | [EvolutionAPI/evo-ai-core-service-community](https://github.com/EvolutionAPI/evo-ai-core-service-community) |
-| `evo-bot-runtime` | [EvolutionAPI/evo-bot-runtime](https://github.com/EvolutionAPI/evo-bot-runtime) |
+| `evo-auth-service-community` | [evolution-foundation/evo-auth-service-community](https://github.com/evolution-foundation/evo-auth-service-community) |
+| `evo-ai-crm-community` | [evolution-foundation/evo-ai-crm-community](https://github.com/evolution-foundation/evo-ai-crm-community) |
+| `evo-ai-frontend-community` | [evolution-foundation/evo-ai-frontend-community](https://github.com/evolution-foundation/evo-ai-frontend-community) |
+| `evo-ai-processor-community` | [evolution-foundation/evo-ai-processor-community](https://github.com/evolution-foundation/evo-ai-processor-community) |
+| `evo-ai-core-service-community` | [evolution-foundation/evo-ai-core-service-community](https://github.com/evolution-foundation/evo-ai-core-service-community) |
+| `evo-bot-runtime` | [evolution-foundation/evo-bot-runtime](https://github.com/evolution-foundation/evo-bot-runtime) |
 
 ### Companion projects (independent versioning)
 
 | Submodule | Repository |
 |---|---|
-| `evolution-api` | [EvolutionAPI/evolution-api](https://github.com/EvolutionAPI/evolution-api) |
-| `evolution-go` | [EvolutionAPI/evolution-go](https://github.com/EvolutionAPI/evolution-go) |
-| `evo-nexus` | [EvolutionAPI/evo-nexus](https://github.com/EvolutionAPI/evo-nexus) |
+| `evolution-api` | [evolution-foundation/evolution-api](https://github.com/evolution-foundation/evolution-api) |
+| `evolution-go` | [evolution-foundation/evolution-go](https://github.com/evolution-foundation/evolution-go) |
+| `evo-nexus` | [evolution-foundation/evo-nexus](https://github.com/evolution-foundation/evo-nexus) |
 
 ---
 
